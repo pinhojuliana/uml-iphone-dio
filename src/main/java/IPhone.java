@@ -1,5 +1,17 @@
 public class IPhone implements Internet, IPod, Telephone {
 
+    public void vizualizarFotos(){
+        System.out.println("Mostrando fotos...");
+    }
+
+    public void tirarFotos(){
+        System.out.println("Tirando fotos");
+    }
+
+    public void vizualizarCalendario(){
+        System.out.println("Mostrando calendário...");
+    }
+
     @Override
     public void assistirFilmes(String nome) {
         System.out.println("Reproduzindo filme: " + nome);
